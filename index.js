@@ -6,6 +6,9 @@ server.set('view engine', 'ejs');
 server.get('/',function (request,respond){
     respond.render('home')
 });
+server.get('/login',function (request,respond){
+    respond.render('login')
+});
 
 
 
